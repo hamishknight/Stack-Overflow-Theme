@@ -17,6 +17,11 @@ ul.comments-list .comment-up-on {
 .iconPencilSm {
     color: #9199a1 !important;
 }
+
+/* Remove underlines from links */
+a {
+    text-decoration: none !important;
+}
 }
 
 @-moz-document url-prefix("https://stackoverflow.com/questions/tagged"), url-prefix("https://www.stackoverflow.com/questions/tagged") {
