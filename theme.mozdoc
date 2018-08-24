@@ -24,8 +24,9 @@ a {
 }
 
 /* Remove new contributor banner for answers and comments */
-.js-comment-text-input-container > .new-contributor-indicator,
-.wmd-container > .new-contributor-indicator {
+/* Taken from https://meta.stackoverflow.com/questions/372877/new-contributor-indicator-can-we-make-it-less-intrusive?cb=1#comment623570_372880 */
+#post-editor .new-contributor-indicator,
+form[id^="add-comment-"] .new-contributor-indicator {
     display: none !important;
 }
 }
