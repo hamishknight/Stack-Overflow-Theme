@@ -22,13 +22,22 @@ ul.comments-list .comment-up-on {
 a {
     text-decoration: none !important;
 }
+
+/* Remove new contributor banner for answers and comments */
+.js-comment-text-input-container > .new-contributor-indicator,
+.wmd-container > .new-contributor-indicator {
+    display: none !important;
+}
 }
 
 @-moz-document url-prefix("https://stackoverflow.com/questions/tagged"), url-prefix("https://www.stackoverflow.com/questions/tagged") {
-.fs-headline1, .mb24 {
+.fs-headline1,
+.mb24 {
     display: none !important;
 }
-.pl8, .aside-cta, .everyonelovesstackoverflow  {
+.pl8,
+.aside-cta,
+.everyonelovesstackoverflow {
     display: none !important;
 }
 }
