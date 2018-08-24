@@ -84,8 +84,8 @@ body.newheader {
     background-color: #444 !important;
     color: #FFF !important;
 }
-.top-bar a.-logo:hover,
-.top-bar a.-logo:focus {
+.top-bar .-main a:hover,
+.top-bar .-main a:focus {
     background-color: #545454;
 }
 .top-bar .indicator-badge._positive {
