@@ -85,8 +85,9 @@ body.newheader {
     color: #FFF !important;
 }
 .top-bar .-main a:hover,
-.top-bar .-main a:focus {
-    background-color: #545454;
+.top-bar .-main a:focus,
+.top-bar .-main .topbar-icon-on {
+    background-color: #545454 !important;
 }
 .top-bar .indicator-badge._positive {
     background-color: #33A030 !important;
