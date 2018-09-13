@@ -136,7 +136,5 @@ body.newheader {
 .so-header .-secondary .-link._danger-indicator:after {
     display: none !important;
 }
-#content.snippet-hidden {
-    border-left: none !important;
-}
+
 }
