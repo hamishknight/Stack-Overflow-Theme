@@ -137,4 +137,9 @@ body.newheader {
     display: none !important;
 }
 
+/* Remove "Products" link in top bar */
+.top-bar .-marketing-link {
+    display: none !important;
+}
+
 }
